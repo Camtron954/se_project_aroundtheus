@@ -65,6 +65,12 @@
     margin-right: 24px;
 }
 
+.block {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
 ---------------------------------------------
 
 @media screen (max-width: 480px){
