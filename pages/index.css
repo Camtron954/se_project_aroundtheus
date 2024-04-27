@@ -18,18 +18,16 @@
     padding-top: 40px;
     }
 
-.profile_info{
+.profile_info {
     display: grid;
-    grid-template-areas:
-    "title button"
-    "description description";
+    grid-template-areas: "title button", "description description";
     grid-template-columns: minmax(auto 373px) auto;
 }
 
 .profile__edit-button {
-    background: transparent url(../images/edit-icon.svg) center no-repeat;
-    height: 24px;
-    width: 24px;
+    background: transparent url(../images/Pencil.png) center no-repeat;
+    height: 10px;
+    width: 10px;
     grid-area: button;
 }
 
@@ -73,7 +71,7 @@
 
 ---------------------------------------------
 
-@media screen (max-width: 480px){
+@media screen (max-width: 480px) {
     .profile {
         flex-direction: column;
     }
@@ -91,14 +89,14 @@
     text-align: center;
 }
 
-.profile__add-button {
+/* .profile__add-button {
     margin: 0;
     width: 100%;
-}
+} */
 
 ---------------------------------------------
 
-@media screen (max-width: 665px){
+@media screen (max-width: 665px) {
     .profile {
         flex-direction: column;
     }
@@ -117,14 +115,14 @@
     text-align: center;
 }
 
-.profile__add-button {
+/* .profile__add-button {
     margin: 0;
     width: 100%;
-}
+} */
 
 ---------------------------------------------
 
-@media screen (max-width: 999px){
+@media screen (max-width: 999px) {
     .profile {
         flex-direction: column;
     }
@@ -142,14 +140,14 @@
     text-align: center;
 }
 
-.profile__add-button {
+/* .profile__add-button {
     margin: 0;
     width: 100%;
-}
+} */
 
 ---------------------------------------------
 
-@media screen (max-width: 1100px){
+@media screen (max-width: 1100px) {
     .profile {
         flex-direction: column;
     }
@@ -167,14 +165,14 @@
     text-align: center;
 }
 
-.profile__add-button {
+/* .profile__add-button {
     margin: 0;
     width: 100%;
-}
+} */
 
 ---------------------------------------------
 
-@media screen (max-width: 1500px){
+@media screen (max-width: 1500px) {
     .profile {
         flex-direction: column;
     }
@@ -193,7 +191,7 @@
     text-align: center;
 }
 
-.profile__add-button {
+/* .profile__add-button {
     margin: 0;
     width: 100%;
-}
+} */

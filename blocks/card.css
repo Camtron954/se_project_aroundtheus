@@ -32,6 +32,10 @@ border-radius: 10px;
     padding-left: 20px;
     align-items: center;
     justify-content: space-between;
+    border-radius: 0 0 10px 10px;
+    font-weight: 900;
+    line-height: 29px;
+    size: 24px;
 }
 
 .card__like-button {
@@ -39,4 +43,3 @@ border-radius: 10px;
     width: 21px;
     height: 18px;
 }
-
