@@ -16,6 +16,8 @@ footer {
   
   @media screen and (max-width: 480px) {
     footer {
-     max-width: 150px;
+        display: flex;
+      flex-direction: column;
+     /* max-width: 150px; */
     }
   }
