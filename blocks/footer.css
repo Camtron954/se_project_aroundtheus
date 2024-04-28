@@ -1,5 +1,6 @@
-.footer {
-    margin-bottom: 100px;
+footer {
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 .footer__text {
@@ -8,14 +9,13 @@
     font-size: 18px;
     font-family: Inter;
     line-height: 22px;
-    margin-left: 100px;
+    margin-left: 50px;
     max-height: 18px;
     max-width: 318px;
   }
   
   @media screen and (max-width: 480px) {
-    .footer__text {
-      margin-left: 19px;
-      margin-top: 48px;
+    footer {
+     max-width: 150px;
     }
   }
