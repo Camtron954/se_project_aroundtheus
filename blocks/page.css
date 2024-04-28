@@ -14,11 +14,13 @@
     
     .page__content {
       background-color:black;
+      margin-left: 100px;
+      margin-right: 100px;
       display: flex;
       flex-direction: column;
       min-height: 100vh;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
+      /* -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale; */
     }
 
     @media screen and (max-width: 1100px) {

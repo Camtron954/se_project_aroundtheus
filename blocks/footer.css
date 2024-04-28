@@ -1,0 +1,21 @@
+.footer {
+    margin-bottom: 100px;
+}
+
+.footer__text {
+    color: #545454;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Inter;
+    line-height: 22px;
+    margin-left: 100px;
+    max-height: 18px;
+    max-width: 318px;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .footer__text {
+      margin-left: 19px;
+      margin-top: 48px;
+    }
+  }
