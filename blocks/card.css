@@ -34,6 +34,9 @@ border-radius: 10px;
     align-items: center;
     justify-content: space-between;
     border-radius: 0 0 10px 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .card__like-button {
@@ -41,25 +44,18 @@ border-radius: 10px;
     width: 21px;
     height: 18px;
     border-width: 0;
+    cursor: pointer;
 }
-
-.card__title {
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 29px;
-    margin: 0;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-    max-width: 282px;
+  .card__like-button:hover {
+    opacity: 50%;
   }
 
 ------------------------------------------
   
-.header {
+/* .header {
     margin-top: 45px;
     max-width: 880px; 
-}
+} */
 
 ------------------------------------------
 
@@ -80,7 +76,6 @@ border-radius: 10px;
     height: 24px;
     width: 24px;
     grid-area: button;
-    /* margin-left: 18px; */
   border: 1px solid white;
 }
 
@@ -115,12 +110,6 @@ border-radius: 10px;
     background-position: center;
     margin-right: 24px;
 }
-
-/* .block {
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-  } */
 
   ------------------------------------------
 
