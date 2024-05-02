@@ -1,5 +1,5 @@
 .page {
-    font-family: Inter, Arial, Helvetica, Sans-serif;
+    font-family: Inter, Helvetica, Sans-serif;
     background-color: black;
      color: white;
 } 
@@ -14,8 +14,8 @@
     
     .page__content {
       background-color:black;
-      margin-left: 100px;
-      margin-right: 100px;
+      margin-left: 200px;
+      margin-right: 200px;
       display: flex;
       flex-direction: column;
       min-height: 100vh;
