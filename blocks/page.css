@@ -1,5 +1,5 @@
 .page {
-  font-family: Inter, arial, Sans-serif;
+  /* font-family: Inter, arial, Sans-serif; */
   background-color: black;
   color: white;
   font-weight: 500px;
@@ -7,7 +7,7 @@
 
 .page__section {
   max-width: 880px;
-  margin: 100%;
+  width: 100%;
   position: relative;
   box-sizing: border-box;
   margin: 0 auto;

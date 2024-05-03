@@ -86,6 +86,7 @@
 @media screen and (max-width: 636px) {
   .profile__title {
       max-width: 415px;
+  overflow: visible;
   }
 }
 
@@ -96,7 +97,6 @@
       justify-content: center;
       width: 100%;
       margin: 30px 0 0;
-  
 }
 }
 
@@ -121,5 +121,14 @@
       margin: 4px 0 0 10px;
       width: 18px;
       height: 18px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .profile__info {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
   }
 }
