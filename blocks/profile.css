@@ -12,6 +12,7 @@
   grid-template-columns: minmax(auto, 373px) auto;
   grid-gap: 7px 17px;
   align-items: baseline;
+  font-weight: 500px;
 }
 
 .profile__edit-button {

@@ -2,6 +2,7 @@
   font-family: Inter, Helvetica, Sans-serif;
   background-color: black;
   color: white;
+  font-weight: 500px;
 }
 
 .page__section {
@@ -19,16 +20,13 @@
   min-height: 100vh;
 }
 
+-------------------------------------------------
+
 @media screen and (max-width: 1100px) {
   .page__section {
     margin: 0 20px;
     max-width: calc(100% - 40px);
   }
-}
-
-
-.a {
-  background: black;
 }
 
 @media screen and (min-width: 581px) {
