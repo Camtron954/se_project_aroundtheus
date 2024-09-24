@@ -1,24 +1,20 @@
-footer {
-    margin-top: 25px;
-    margin-bottom: 50px;
+.footer {
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 .footer__text {
-    color: #545454;
-    font-weight: 400;
-    font-size: 18px;
-    font-family: Inter;
-    line-height: 22px;
-    margin-left: 50px;
-    max-height: 18px;
-    max-width: 318px;
+  color: #545454;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Inter", Arial, sans-serif;
+  line-height: 22px;
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
   }
-  
-  @media screen and (max-width: 480px) {
-    footer {
-        display: flex;
-      flex-direction: column;
-     max-width: 150px;
-    }
-  }
-  
+}
