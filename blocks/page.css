@@ -20,11 +20,7 @@
   padding: 0 20px;
 }
 
--------------------------------------------------
-  @media
-  screen
-  and
-  (max-width: 593px) {
+@media screen and (max-width: 593px) {
   .page__section {
     margin: 0;
     min-width: 150px;

@@ -11,11 +11,13 @@
   border-radius: 10px 10px 0 0;
 }
 
-.card_title {
+.card__title {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  max-width: ;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
 }
 
 .card__description {
@@ -26,8 +28,6 @@
   align-items: center;
   justify-content: space-between;
   border-radius: 0 0 10px 10px;
-  white-space: nowrap;
-  overflow: hidden;
 }
 
 .card__like-button {
@@ -41,7 +41,7 @@
   opacity: 50%;
 }
 
--------------------------- @media screen and (max-width: 925px) {
+@media screen and (max-width: 925px) {
   .card {
     margin-right: auto;
     margin-left: auto;

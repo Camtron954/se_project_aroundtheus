@@ -36,7 +36,6 @@
   margin-left: auto;
   margin: 13px 0 14px auto;
   border: 2px solid white;
-  border-radius: 25px;
 }
 
 .profile__add-button:hover {
@@ -74,11 +73,7 @@
   margin-right: 24px;
 }
 
-------------------------------------------
-  @media
-  screen
-  and
-  (max-width: 925px) {
+@media screen and (max-width: 925px) {
   .profile {
     margin-right: auto;
     margin-left: auto;
@@ -98,6 +93,9 @@
   }
   .profile__title {
     max-width: 415px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26.63px;
   }
   .profile__info {
     display: flex;

@@ -11,11 +11,7 @@
   max-height: 33px;
 }
 
------------------------------------------------------
-  @media
-  screen
-  and
-  (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .header {
     padding: 28px 0 32px 27px;
     min-height: 56px;
@@ -27,9 +23,3 @@
     max-height: 24px;
   }
 }
-
-    .header__logo {
-      max-width: 126px;
-      max-height: 24px;
-    }
-  }
