@@ -1,4 +1,6 @@
 .header {
+  display: flex;
+  align-items: center;
   margin: 0;
   padding: 45px 0 32px 27px;
   min-height: 74px;
@@ -15,7 +17,6 @@
   .header {
     padding: 28px 0 32px 27px;
     min-height: 56px;
-    width: 100%;
   }
 
   .header__logo {

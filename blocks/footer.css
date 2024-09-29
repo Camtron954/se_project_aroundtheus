@@ -1,18 +1,20 @@
-footer {
+.footer {
   margin-top: 25px;
   margin-bottom: 50px;
 }
 
-.foot {
+.footer__text {
   color: #545454;
   font-weight: 400;
   font-size: 18px;
   font-family: "Inter", Arial, sans-serif;
   line-height: 22px;
-  margin-left: 50px;
+  margin: auto;
 }
 
-.foot__text {
+.footer__para {
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 18px;
   font-family: "Inter", Arial, sans-serif;
   font-weight: 400;
@@ -20,23 +22,20 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-  footer {
+  .footer {
     display: flex;
     flex-direction: column;
   }
 
-  .foot {
+  .footer__text {
     display: flex;
     flex-direction: column;
-    font-weight: 400;
     font-size: 14px;
     line-height: 16.94px;
   }
 
-  .foot__text {
+  .footer__para {
     font-size: 14px;
-    font-family: "Inter", Arial, sans-serif;
-    font-weight: 400;
     line-height: 16.94px;
   }
 }
