@@ -1,9 +1,9 @@
-.footer {
+footer {
   margin-top: 25px;
   margin-bottom: 50px;
 }
 
-.footer__text {
+.footer {
   color: #545454;
   font-weight: 400;
   font-size: 18px;
@@ -12,7 +12,7 @@
   margin: auto;
 }
 
-.footer__para {
+.footer__text {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 18px;
@@ -22,19 +22,19 @@
 }
 
 @media screen and (max-width: 480px) {
-  .footer {
+  footer {
     display: flex;
     flex-direction: column;
   }
 
-  .footer__text {
+  .footer {
     display: flex;
     flex-direction: column;
     font-size: 14px;
     line-height: 16.94px;
   }
 
-  .footer__para {
+  .footer__text {
     font-size: 14px;
     line-height: 16.94px;
   }
