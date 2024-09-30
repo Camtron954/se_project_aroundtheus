@@ -61,10 +61,10 @@
   overflow: hidden;
   font-size: 18px;
   line-height: 22px;
-  font-weight: 400px;
+  font-weight: 400;
   grid-area: description;
   margin: 7px 0 0;
-  max-width: 415;
+  max-width: 415px;
 }
 
 .profile__image {
