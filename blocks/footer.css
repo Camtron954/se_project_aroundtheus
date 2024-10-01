@@ -1,14 +1,11 @@
-footer {
-  margin-top: 25px;
-  margin-bottom: 50px;
-}
-
 .footer {
   color: #545454;
   font-weight: 400;
   font-size: 18px;
   font-family: "Inter", Arial, sans-serif;
   line-height: 22px;
+   margin-top: 25px;
+  margin-bottom: 50px;
   margin: auto;
 }
 
@@ -22,10 +19,6 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-  footer {
-    display: flex;
-    flex-direction: column;
-  }
 
   .footer {
     display: flex;
